@@ -1,5 +1,7 @@
 <project name="GlobalFreeplane" default="dist" basedir=".">
 
+
+
 	<target name="build">
 		<ant antfile="freeplane_framework/ant/build.xml"  target="build"
 			inheritAll="false" />
